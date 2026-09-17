@@ -1,0 +1,501 @@
+order_id,order_date,customer_name,city,category,product_id,quantity,amount_inr,payment_mode,status,rating,month,month_name,revenue_per_unit,is_delivered
+1,2026-03-09,Dev,Pune,Snacks & Beverages,13,5,175.0,UPI,Delivered,5.0,3,March,35.0,True
+2,2026-05-22,Ayaan,Bengaluru,Snacks & Beverages,15,1,60.0,Debit Card,Delivered,5.0,5,May,60.0,True
+3,2026-06-30,Yash,Bengaluru,Household Essentials,25,2,150.0,UPI,Delivered,2.0,6,June,75.0,True
+4,2026-03-01,Sneha,Hyderabad,Snacks & Beverages,11,1,30.0,UPI,Delivered,4.0,3,March,30.0,True
+5,2026-04-05,Rohit,Mumbai,Snacks & Beverages,14,2,220.0,Debit Card,Delivered,3.0,4,April,110.0,True
+6,2026-06-05,Deepak,Mumbai,Bakery,30,1,65.0,Credit Card,Delivered,2.0,6,June,65.0,True
+7,2026-03-11,Ananya,Pune,Personal Care,19,4,396.0,Wallet,Delivered,3.0,3,March,99.0,True
+8,2026-01-09,Sneha,Hyderabad,Fruits & Vegetables,2,2,80.0,Debit Card,Delivered,1.0,1,January,40.0,True
+9,2026-02-24,Aadhya,Hyderabad,Household Essentials,24,3,267.0,Cash on Delivery,Delivered,4.0,2,February,89.0,True
+10,2026-03-05,Ishaan,Hyderabad,Snacks & Beverages,11,2,60.0,Wallet,Delivered,5.0,3,March,30.0,True
+11,2026-04-03,Tara,Bengaluru,Household Essentials,25,4,300.0,Credit Card,Pending,,4,April,75.0,False
+12,2026-01-24,Krishna,Mumbai,Household Essentials,21,4,80.0,UPI,Cancelled,,1,January,20.0,False
+13,2026-06-24,Ishaan,Hyderabad,Bakery,27,2,140.0,Cash on Delivery,Delivered,4.0,6,June,70.0,True
+14,2026-05-16,Aryan,Mumbai,Household Essentials,25,4,300.0,Debit Card,Pending,,5,May,75.0,False
+15,2026-06-24,Aarav,Mumbai,Bakery,30,1,65.0,Wallet,Delivered,3.0,6,June,65.0,True
+16,2026-02-10,Ayaan,Bengaluru,Snacks & Beverages,11,4,120.0,Cash on Delivery,Delivered,3.0,2,February,30.0,True
+17,2026-01-28,Karan,Mumbai,Dairy & Eggs,7,5,450.0,Debit Card,Delivered,5.0,1,January,90.0,True
+18,2026-04-06,Divya,Pune,Dairy & Eggs,8,2,168.0,Credit Card,Delivered,5.0,4,April,84.0,True
+19,2026-05-06,Aarav,Mumbai,Household Essentials,25,3,225.0,UPI,Delivered,3.0,5,May,75.0,True
+20,2026-03-03,Siya,Bengaluru,Dairy & Eggs,9,1,45.0,Wallet,Cancelled,,3,March,45.0,False
+21,2026-05-17,Sai,Hyderabad,Household Essentials,21,1,20.0,Credit Card,Delivered,4.0,5,May,20.0,True
+22,2026-05-16,Pooja,Bengaluru,Dairy & Eggs,7,3,270.0,Wallet,Delivered,2.0,5,May,90.0,True
+23,2026-04-13,Nikhil,Pune,Dairy & Eggs,8,3,252.0,Debit Card,Delivered,5.0,4,April,84.0,True
+24,2026-02-27,Nisha,Mumbai,Fruits & Vegetables,5,2,50.0,UPI,Delivered,5.0,2,February,25.0,True
+25,2026-02-26,Pooja,Bengaluru,Dairy & Eggs,9,5,225.0,UPI,Delivered,1.0,2,February,45.0,True
+26,2026-03-26,Kiara,Pune,Fruits & Vegetables,2,1,40.0,UPI,Delivered,3.0,3,March,40.0,True
+27,2026-05-19,Vikram,Pune,Household Essentials,21,2,40.0,Credit Card,Delivered,5.0,5,May,20.0,True
+28,2026-05-02,Neha,Mumbai,Personal Care,20,2,300.0,Cash on Delivery,Delivered,1.0,5,May,150.0,True
+29,2026-04-19,Vikram,Pune,Personal Care,18,3,120.0,Cash on Delivery,Delivered,1.0,4,April,40.0,True
+30,2026-01-16,Manish,Bengaluru,Bakery,29,1,85.0,Cash on Delivery,Delivered,1.0,1,January,85.0,True
+31,2026-05-18,Myra,Bengaluru,Dairy & Eggs,8,2,168.0,Cash on Delivery,Delivered,2.0,5,May,84.0,True
+32,2026-01-20,Navya,Hyderabad,Personal Care,19,2,198.0,Cash on Delivery,Delivered,5.0,1,January,99.0,True
+33,2026-01-04,Reyansh,Pune,Fruits & Vegetables,2,5,200.0,UPI,Cancelled,,1,January,40.0,False
+34,2026-05-05,Myra,Bengaluru,Dairy & Eggs,7,4,,Cash on Delivery,Delivered,4.0,5,May,,True
+35,2026-01-01,Vihaan,Bengaluru,Dairy & Eggs,7,4,360.0,Cash on Delivery,Delivered,4.0,1,January,90.0,True
+36,2026-06-19,Riya,Pune,Personal Care,18,5,,Cash on Delivery,Delivered,3.0,6,June,,True
+37,2026-05-19,Aadhya,Hyderabad,Fruits & Vegetables,2,5,200.0,UPI,Delivered,1.0,5,May,40.0,True
+38,2026-05-09,Vihaan,Bengaluru,Household Essentials,25,4,300.0,Wallet,Delivered,5.0,5,May,75.0,True
+39,2026-06-02,Sai,Hyderabad,Dairy & Eggs,7,1,90.0,UPI,Delivered,2.0,6,June,90.0,True
+40,2026-03-05,Zara,Hyderabad,Fruits & Vegetables,5,5,125.0,Wallet,Delivered,5.0,3,March,25.0,True
+41,2026-05-25,Sai,Hyderabad,Personal Care,17,5,475.0,Wallet,Delivered,3.0,5,May,95.0,True
+42,2026-03-03,Aadhya,Hyderabad,Bakery,29,3,255.0,Debit Card,Delivered,3.0,3,March,85.0,True
+43,2026-01-03,Priya,Hyderabad,Snacks & Beverages,12,1,45.0,Cash on Delivery,Delivered,5.0,1,January,45.0,True
+44,2026-02-24,Reyansh,Pune,Fruits & Vegetables,3,5,175.0,Wallet,Delivered,3.0,2,February,35.0,True
+45,2026-03-14,Arjun,Mumbai,Dairy & Eggs,10,3,165.0,Credit Card,Delivered,5.0,3,March,55.0,True
+46,2026-06-17,Kavya,Hyderabad,Snacks & Beverages,12,5,225.0,Wallet,Delivered,5.0,6,June,45.0,True
+47,2026-02-04,Siya,Bengaluru,Bakery,29,1,85.0,Debit Card,Delivered,1.0,2,February,85.0,True
+48,2026-03-11,Anjali,Bengaluru,Household Essentials,23,2,290.0,Debit Card,Delivered,3.0,3,March,145.0,True
+49,2026-05-10,Aadhya,Hyderabad,Bakery,30,3,195.0,Cash on Delivery,Delivered,1.0,5,May,65.0,True
+50,2026-03-12,Sai,Hyderabad,Bakery,27,4,280.0,UPI,Delivered,2.0,3,March,70.0,True
+51,2026-04-24,Rohit,Mumbai,Snacks & Beverages,11,2,60.0,Wallet,Delivered,5.0,4,April,30.0,True
+52,2026-06-26,Aarav,Mumbai,Fruits & Vegetables,5,1,25.0,Credit Card,Delivered,3.0,6,June,25.0,True
+53,2026-04-21,Simran,Hyderabad,Household Essentials,23,2,290.0,Credit Card,Delivered,3.0,4,April,145.0,True
+54,2026-06-24,Aditya,Pune,Snacks & Beverages,14,2,220.0,Credit Card,Delivered,3.0,6,June,110.0,True
+55,2026-06-08,Sneha,Hyderabad,Household Essentials,24,4,356.0,Credit Card,Cancelled,,6,June,89.0,False
+56,2026-04-16,Myra,Bengaluru,Dairy & Eggs,7,2,180.0,UPI,Delivered,3.0,4,April,90.0,True
+57,2026-03-10,Meera,Pune,Bakery,29,2,170.0,Credit Card,Delivered,1.0,3,March,85.0,True
+58,2026-02-26,Aryan,Mumbai,Fruits & Vegetables,1,4,200.0,Credit Card,Delivered,4.0,2,February,50.0,True
+59,2026-02-27,Dev,Pune,Snacks & Beverages,12,2,90.0,UPI,Delivered,4.0,2,February,45.0,True
+60,2026-03-13,Kabir,Hyderabad,Snacks & Beverages,11,1,30.0,Debit Card,Delivered,4.0,3,March,30.0,True
+61,2026-01-08,Manish,Bengaluru,Household Essentials,22,3,390.0,UPI,Cancelled,,1,January,130.0,False
+62,2026-03-09,Anika,Mumbai,Dairy & Eggs,7,5,450.0,UPI,Delivered,4.0,3,March,90.0,True
+63,2026-06-05,Dev,Pune,Snacks & Beverages,12,4,180.0,Wallet,Delivered,5.0,6,June,45.0,True
+64,2026-04-22,Saanvi,Mumbai,Dairy & Eggs,10,1,55.0,UPI,Delivered,5.0,4,April,55.0,True
+65,2026-04-04,Manish,Bengaluru,Bakery,29,2,170.0,Cash on Delivery,Delivered,3.0,4,April,85.0,True
+66,2026-03-18,Isha,Bengaluru,Snacks & Beverages,12,1,45.0,Wallet,Delivered,4.0,3,March,45.0,True
+67,2026-05-22,Rohan,Mumbai,Personal Care,17,3,285.0,Credit Card,Delivered,4.0,5,May,95.0,True
+68,2026-05-26,Manish,Bengaluru,Dairy & Eggs,7,5,450.0,Debit Card,Delivered,1.0,5,May,90.0,True
+69,2026-04-21,Siya,Bengaluru,Snacks & Beverages,11,2,60.0,Wallet,Delivered,3.0,4,April,30.0,True
+70,2026-06-22,Priya,Hyderabad,Personal Care,18,4,160.0,Credit Card,Delivered,2.0,6,June,40.0,True
+71,2026-05-12,Vikram,Pune,Fruits & Vegetables,3,3,105.0,Wallet,Delivered,2.0,5,May,35.0,True
+72,2026-02-20,Manish,Bengaluru,Snacks & Beverages,12,2,90.0,Credit Card,Delivered,2.0,2,February,45.0,True
+73,2026-04-27,Aman,Pune,Bakery,26,1,45.0,Cash on Delivery,Cancelled,,4,April,45.0,False
+74,2026-05-07,Neha,Mumbai,Dairy & Eggs,8,4,336.0,Cash on Delivery,Delivered,1.0,5,May,84.0,True
+75,2026-02-26,Pallavi,Mumbai,Fruits & Vegetables,5,4,100.0,Credit Card,Delivered,5.0,2,February,25.0,True
+76,2026-03-05,Priya,Hyderabad,Fruits & Vegetables,2,5,200.0,UPI,Delivered,4.0,3,March,40.0,True
+77,2026-06-02,Vikram,Pune,Household Essentials,22,5,650.0,Debit Card,Pending,,6,June,130.0,False
+78,2026-04-20,Nisha,Mumbai,Bakery,26,5,225.0,Wallet,Delivered,2.0,4,April,45.0,True
+79,2026-03-08,Anjali,Bengaluru,Personal Care,20,4,552.5,Credit Card,Delivered,3.0,3,March,138.125,True
+80,2026-06-10,Sneha,Hyderabad,Household Essentials,22,4,520.0,Credit Card,Delivered,1.0,6,June,130.0,True
+81,2026-03-11,Kavya,Hyderabad,Snacks & Beverages,11,2,60.0,Debit Card,Delivered,5.0,3,March,30.0,True
+82,2026-03-01,Sai,Hyderabad,Dairy & Eggs,6,2,120.0,Cash on Delivery,Delivered,2.0,3,March,60.0,True
+83,2026-03-26,Arjun,Mumbai,Personal Care,17,4,380.0,Wallet,Delivered,1.0,3,March,95.0,True
+84,2026-05-30,Aadhya,Hyderabad,Personal Care,17,4,380.0,UPI,Cancelled,,5,May,95.0,False
+85,2026-05-03,Pallavi,Mumbai,Household Essentials,25,4,300.0,UPI,Cancelled,,5,May,75.0,False
+86,2026-05-18,Siya,Bengaluru,Snacks & Beverages,15,4,240.0,Wallet,Delivered,2.0,5,May,60.0,True
+87,2026-04-22,Rahul,Bengaluru,Dairy & Eggs,9,3,135.0,Cash on Delivery,Delivered,3.0,4,April,45.0,True
+88,2026-02-12,Vikram,Pune,Bakery,30,4,260.0,Cash on Delivery,Cancelled,,2,February,65.0,False
+89,2026-04-11,Isha,Bengaluru,Household Essentials,22,1,130.0,Wallet,Delivered,1.0,4,April,130.0,True
+90,2026-02-04,Sai,Hyderabad,Bakery,28,4,480.0,Cash on Delivery,Delivered,3.0,2,February,120.0,True
+91,2026-04-27,Aryan,Mumbai,Snacks & Beverages,12,2,90.0,Debit Card,Delivered,4.0,4,April,45.0,True
+92,2026-01-21,Navya,Hyderabad,Personal Care,17,3,285.0,Cash on Delivery,Delivered,5.0,1,January,95.0,True
+93,2026-06-16,Vihaan,Bengaluru,Snacks & Beverages,13,2,70.0,UPI,Delivered,1.0,6,June,35.0,True
+94,2026-02-21,Pallavi,Mumbai,Fruits & Vegetables,1,2,100.0,UPI,Delivered,2.0,2,February,50.0,True
+95,2026-05-25,Krishna,Mumbai,Personal Care,20,1,150.0,Credit Card,Delivered,3.0,5,May,150.0,True
+96,2026-06-05,Sneha,Hyderabad,Snacks & Beverages,15,2,120.0,Wallet,Pending,,6,June,60.0,False
+97,2026-03-21,Kavya,Hyderabad,Fruits & Vegetables,5,2,50.0,UPI,Delivered,3.0,3,March,25.0,True
+98,2026-04-12,Neha,Mumbai,Bakery,30,4,260.0,Credit Card,Delivered,2.0,4,April,65.0,True
+99,2026-01-31,Reyansh,Pune,Snacks & Beverages,12,5,225.0,Wallet,Delivered,3.0,1,January,45.0,True
+100,2026-01-18,Nikhil,Pune,Personal Care,18,3,120.0,Wallet,Delivered,1.0,1,January,40.0,True
+101,2026-04-21,Meera,Pune,Household Essentials,21,1,20.0,Debit Card,Delivered,4.0,4,April,20.0,True
+102,2026-02-15,Kavya,Hyderabad,Dairy & Eggs,6,4,240.0,Wallet,Pending,,2,February,60.0,False
+103,2026-05-04,Navya,Hyderabad,Bakery,26,5,225.0,Cash on Delivery,Delivered,5.0,5,May,45.0,True
+104,2026-01-23,Navya,Hyderabad,Snacks & Beverages,12,2,90.0,Debit Card,Cancelled,,1,January,45.0,False
+105,2026-06-06,Myra,Bengaluru,Personal Care,19,5,495.0,Cash on Delivery,Delivered,4.0,6,June,99.0,True
+106,2026-02-24,Rohan,Mumbai,Dairy & Eggs,7,4,360.0,Debit Card,Delivered,3.0,2,February,90.0,True
+107,2026-05-23,Navya,Hyderabad,Household Essentials,25,3,225.0,UPI,Delivered,2.0,5,May,75.0,True
+108,2026-05-06,Sai,Hyderabad,Dairy & Eggs,9,4,180.0,Wallet,Delivered,4.0,5,May,45.0,True
+109,2026-01-05,Sanjay,Hyderabad,Household Essentials,21,4,80.0,UPI,Delivered,4.0,1,January,20.0,True
+110,2026-06-19,Deepak,Mumbai,Dairy & Eggs,10,3,165.0,Wallet,Delivered,5.0,6,June,55.0,True
+111,2026-05-21,Varun,Hyderabad,Snacks & Beverages,13,4,140.0,Debit Card,Delivered,4.0,5,May,35.0,True
+112,2026-03-01,Navya,Hyderabad,Snacks & Beverages,12,3,135.0,UPI,Delivered,3.0,3,March,45.0,True
+113,2026-02-19,Ayaan,Bengaluru,Household Essentials,22,2,260.0,Credit Card,Delivered,3.0,2,February,130.0,True
+114,2026-06-02,Shreya,Pune,Household Essentials,25,5,,Debit Card,Pending,,6,June,,False
+115,2026-04-03,Saanvi,Mumbai,Snacks & Beverages,11,2,60.0,Credit Card,Delivered,5.0,4,April,30.0,True
+116,2026-01-14,Krishna,Mumbai,Snacks & Beverages,11,1,30.0,Wallet,Delivered,2.0,1,January,30.0,True
+117,2026-01-04,Rohit,Mumbai,Household Essentials,21,1,20.0,Wallet,Delivered,4.0,1,January,20.0,True
+118,2026-01-14,Nisha,Mumbai,Snacks & Beverages,13,2,70.0,Debit Card,Cancelled,,1,January,35.0,False
+119,2026-04-13,Aman,Pune,Fruits & Vegetables,5,1,25.0,Cash on Delivery,Delivered,1.0,4,April,25.0,True
+120,2026-03-19,Ishaan,Hyderabad,Dairy & Eggs,6,5,300.0,UPI,Pending,,3,March,60.0,False
+121,2026-06-05,Ayaan,Bengaluru,Household Essentials,23,4,552.5,Wallet,Delivered,2.0,6,June,138.125,True
+122,2026-04-26,Sneha,Hyderabad,Household Essentials,22,4,520.0,Cash on Delivery,Delivered,5.0,4,April,130.0,True
+123,2026-06-08,Tara,Bengaluru,Snacks & Beverages,12,5,225.0,UPI,Delivered,1.0,6,June,45.0,True
+124,2026-03-09,Pallavi,Mumbai,Dairy & Eggs,8,2,168.0,UPI,Delivered,2.0,3,March,84.0,True
+125,2026-01-01,Pooja,Bengaluru,Fruits & Vegetables,3,2,70.0,Cash on Delivery,Delivered,5.0,1,January,35.0,True
+126,2026-03-01,Aman,Pune,Snacks & Beverages,11,1,30.0,Debit Card,Delivered,4.0,3,March,30.0,True
+127,2026-03-09,Arjun,Mumbai,Bakery,30,2,130.0,Wallet,Delivered,2.0,3,March,65.0,True
+128,2026-02-27,Tara,Bengaluru,Fruits & Vegetables,5,5,125.0,Credit Card,Cancelled,,2,February,25.0,False
+129,2026-02-12,Ishaan,Hyderabad,Fruits & Vegetables,3,1,35.0,Debit Card,Delivered,5.0,2,February,35.0,True
+130,2026-04-30,Riya,Pune,Personal Care,18,1,40.0,Debit Card,Delivered,3.0,4,April,40.0,True
+131,2026-04-23,Karan,Mumbai,Household Essentials,23,4,552.5,UPI,Delivered,4.0,4,April,138.125,True
+132,2026-03-06,Anjali,Bengaluru,Snacks & Beverages,12,5,225.0,UPI,Delivered,5.0,3,March,45.0,True
+133,2026-05-28,Simran,Hyderabad,Fruits & Vegetables,1,3,150.0,UPI,Delivered,2.0,5,May,50.0,True
+134,2026-03-13,Aman,Pune,Household Essentials,22,4,520.0,Credit Card,Pending,,3,March,130.0,False
+135,2026-01-24,Tara,Bengaluru,Bakery,27,4,280.0,Cash on Delivery,Delivered,3.0,1,January,70.0,True
+136,2026-02-11,Rohan,Mumbai,Bakery,29,1,85.0,Debit Card,Delivered,4.0,2,February,85.0,True
+137,2026-05-21,Riya,Pune,Bakery,29,4,340.0,UPI,Delivered,3.0,5,May,85.0,True
+138,2026-04-14,Anika,Mumbai,Snacks & Beverages,12,1,45.0,Wallet,Delivered,1.0,4,April,45.0,True
+139,2026-04-16,Vikram,Pune,Household Essentials,23,4,552.5,UPI,Delivered,3.0,4,April,138.125,True
+140,2026-01-14,Isha,Bengaluru,Household Essentials,21,4,80.0,Credit Card,Delivered,2.0,1,January,20.0,True
+141,2026-02-01,Riya,Pune,Personal Care,18,4,160.0,UPI,Pending,,2,February,40.0,False
+142,2026-03-21,Divya,Pune,Dairy & Eggs,9,2,90.0,Wallet,Delivered,4.0,3,March,45.0,True
+143,2026-04-29,Sai,Hyderabad,Dairy & Eggs,9,1,45.0,UPI,Delivered,2.0,4,April,45.0,True
+144,2026-06-30,Rahul,Bengaluru,Snacks & Beverages,11,5,150.0,Debit Card,Delivered,4.0,6,June,30.0,True
+145,2026-05-22,Aman,Pune,Dairy & Eggs,10,4,220.0,Credit Card,Delivered,5.0,5,May,55.0,True
+146,2026-03-12,Karan,Mumbai,Dairy & Eggs,6,1,60.0,Cash on Delivery,Delivered,5.0,3,March,60.0,True
+147,2026-03-18,Navya,Hyderabad,Fruits & Vegetables,1,3,150.0,Wallet,Delivered,4.0,3,March,50.0,True
+148,2026-05-04,Ishaan,Hyderabad,Personal Care,18,5,200.0,Debit Card,Delivered,5.0,5,May,40.0,True
+149,2026-02-18,Aryan,Mumbai,Personal Care,18,3,120.0,Credit Card,Delivered,2.0,2,February,40.0,True
+150,2026-03-23,Sneha,Hyderabad,Personal Care,17,1,95.0,Cash on Delivery,Delivered,4.0,3,March,95.0,True
+151,2026-05-07,Aryan,Mumbai,Bakery,29,2,170.0,UPI,Delivered,5.0,5,May,85.0,True
+152,2026-01-26,Kabir,Hyderabad,Fruits & Vegetables,4,4,720.0,Wallet,Cancelled,,1,January,180.0,False
+153,2026-06-17,Aarav,Mumbai,Dairy & Eggs,6,4,240.0,Credit Card,Delivered,3.0,6,June,60.0,True
+154,2026-06-16,Kabir,Hyderabad,Bakery,26,4,180.0,UPI,Cancelled,,6,June,45.0,False
+155,2026-03-23,Manish,Bengaluru,Household Essentials,22,4,520.0,Cash on Delivery,Cancelled,,3,March,130.0,False
+156,2026-03-02,Aditya,Pune,Bakery,26,1,45.0,Debit Card,Pending,,3,March,45.0,False
+157,2026-01-26,Anjali,Bengaluru,Fruits & Vegetables,3,4,140.0,UPI,Delivered,3.0,1,January,35.0,True
+158,2026-01-15,Vivaan,Hyderabad,Fruits & Vegetables,2,3,120.0,Debit Card,Delivered,4.0,1,January,40.0,True
+159,2026-04-16,Ishaan,Hyderabad,Dairy & Eggs,10,5,275.0,Wallet,Delivered,2.0,4,April,55.0,True
+160,2026-06-06,Ananya,Pune,Dairy & Eggs,7,1,90.0,Cash on Delivery,Delivered,2.0,6,June,90.0,True
+161,2026-03-01,Rahul,Bengaluru,Household Essentials,25,2,150.0,Cash on Delivery,Delivered,4.0,3,March,75.0,True
+162,2026-04-30,Anika,Mumbai,Bakery,29,1,85.0,Debit Card,Delivered,2.0,4,April,85.0,True
+163,2026-05-31,Arjun,Mumbai,Personal Care,18,3,120.0,Debit Card,Delivered,4.0,5,May,40.0,True
+164,2026-03-19,Deepak,Mumbai,Dairy & Eggs,10,4,220.0,Credit Card,Pending,,3,March,55.0,False
+165,2026-04-08,Aman,Pune,Fruits & Vegetables,5,2,50.0,Wallet,Delivered,3.0,4,April,25.0,True
+166,2026-06-18,Deepak,Mumbai,Snacks & Beverages,11,1,30.0,Cash on Delivery,Delivered,5.0,6,June,30.0,True
+167,2026-05-08,Manish,Bengaluru,Fruits & Vegetables,2,5,200.0,Debit Card,Delivered,2.0,5,May,40.0,True
+168,2026-06-12,Divya,Pune,Snacks & Beverages,14,2,220.0,Credit Card,Delivered,2.0,6,June,110.0,True
+169,2026-03-21,Rohit,Mumbai,Fruits & Vegetables,4,1,180.0,Cash on Delivery,Delivered,3.0,3,March,180.0,True
+170,2026-03-17,Shreya,Pune,Dairy & Eggs,6,1,60.0,Debit Card,Delivered,2.0,3,March,60.0,True
+171,2026-04-04,Saanvi,Mumbai,Dairy & Eggs,6,5,300.0,Wallet,Delivered,3.0,4,April,60.0,True
+172,2026-03-17,Ananya,Pune,Dairy & Eggs,10,4,220.0,Debit Card,Delivered,4.0,3,March,55.0,True
+173,2026-06-23,Arjun,Mumbai,Dairy & Eggs,6,2,4800.0,Cash on Delivery,Pending,,6,June,2400.0,False
+174,2026-04-12,Pooja,Bengaluru,Snacks & Beverages,14,1,110.0,UPI,Delivered,1.0,4,April,110.0,True
+175,2026-05-30,Priya,Hyderabad,Snacks & Beverages,15,3,180.0,Cash on Delivery,Delivered,3.0,5,May,60.0,True
+176,2026-05-01,Reyansh,Pune,Bakery,30,2,130.0,UPI,Delivered,5.0,5,May,65.0,True
+177,2026-06-15,Rohan,Mumbai,Bakery,26,2,90.0,UPI,Delivered,4.0,6,June,45.0,True
+178,2026-01-30,Deepak,Mumbai,Snacks & Beverages,12,4,180.0,Credit Card,Delivered,1.0,1,January,45.0,True
+179,2026-01-25,Siya,Bengaluru,Household Essentials,21,1,20.0,Credit Card,Cancelled,,1,January,20.0,False
+180,2026-04-05,Krishna,Mumbai,Snacks & Beverages,15,4,240.0,Wallet,Delivered,2.0,4,April,60.0,True
+181,2026-05-06,Meera,Pune,Bakery,29,1,85.0,Wallet,Delivered,3.0,5,May,85.0,True
+182,2026-04-24,Aditya,Pune,Snacks & Beverages,15,2,120.0,Cash on Delivery,Pending,,4,April,60.0,False
+183,2026-05-20,Yash,Bengaluru,Fruits & Vegetables,4,3,540.0,Debit Card,Delivered,3.0,5,May,180.0,True
+184,2026-01-24,Saanvi,Mumbai,Fruits & Vegetables,5,4,100.0,Credit Card,Delivered,5.0,1,January,25.0,True
+185,2026-03-04,Vivaan,Hyderabad,Fruits & Vegetables,2,3,120.0,Credit Card,Delivered,2.0,3,March,40.0,True
+186,2026-05-31,Arjun,Mumbai,Household Essentials,23,2,290.0,Credit Card,Delivered,2.0,5,May,145.0,True
+187,2026-01-01,Kabir,Hyderabad,Dairy & Eggs,6,5,300.0,Debit Card,Cancelled,,1,January,60.0,False
+188,2026-03-06,Ishaan,Hyderabad,Dairy & Eggs,6,5,300.0,Credit Card,Delivered,1.0,3,March,60.0,True
+189,2026-03-02,Krishna,Mumbai,Fruits & Vegetables,1,3,150.0,Wallet,Delivered,2.0,3,March,50.0,True
+190,2026-04-18,Anika,Mumbai,Fruits & Vegetables,2,2,80.0,Wallet,Delivered,1.0,4,April,40.0,True
+191,2026-05-12,Aman,Pune,Personal Care,18,3,120.0,Wallet,Delivered,5.0,5,May,40.0,True
+192,2026-06-18,Kiara,Pune,Bakery,26,1,45.0,Wallet,Delivered,1.0,6,June,45.0,True
+193,2026-04-20,Vihaan,Bengaluru,Personal Care,20,4,552.5,UPI,Delivered,4.0,4,April,138.125,True
+194,2026-06-05,Arjun,Mumbai,Fruits & Vegetables,3,3,105.0,Credit Card,Delivered,3.0,6,June,35.0,True
+195,2026-05-21,Isha,Bengaluru,Bakery,27,5,350.0,Debit Card,Delivered,5.0,5,May,70.0,True
+196,2026-05-10,Varun,Hyderabad,Snacks & Beverages,11,4,120.0,Wallet,Delivered,1.0,5,May,30.0,True
+197,2026-02-25,Sanjay,Hyderabad,Bakery,28,5,552.5,Cash on Delivery,Delivered,2.0,2,February,110.5,True
+198,2026-04-13,Meera,Pune,Snacks & Beverages,13,4,140.0,Cash on Delivery,Delivered,3.0,4,April,35.0,True
+199,2026-04-06,Tara,Bengaluru,Snacks & Beverages,12,3,552.5,Credit Card,Delivered,4.0,4,April,184.16666666666666,True
+200,2026-01-24,Arjun,Mumbai,Fruits & Vegetables,3,1,35.0,Cash on Delivery,Delivered,3.0,1,January,35.0,True
+201,2026-05-31,Krishna,Mumbai,Household Essentials,23,1,145.0,Wallet,Delivered,1.0,5,May,145.0,True
+202,2026-01-14,Meera,Pune,Snacks & Beverages,14,4,440.0,Debit Card,Delivered,3.0,1,January,110.0,True
+203,2026-02-24,Reyansh,Pune,Household Essentials,25,5,375.0,Credit Card,Delivered,2.0,2,February,75.0,True
+204,2026-04-05,Reyansh,Pune,Snacks & Beverages,13,5,175.0,UPI,Delivered,5.0,4,April,35.0,True
+205,2026-06-09,Kiara,Pune,Personal Care,18,5,200.0,Wallet,Delivered,5.0,6,June,40.0,True
+206,2026-01-08,Vivaan,Hyderabad,Bakery,26,3,135.0,Credit Card,Delivered,3.0,1,January,45.0,True
+207,2026-02-16,Kabir,Hyderabad,Snacks & Beverages,13,1,35.0,Credit Card,Delivered,4.0,2,February,35.0,True
+208,2026-01-24,Arjun,Mumbai,Dairy & Eggs,6,1,60.0,Wallet,Delivered,4.0,1,January,60.0,True
+209,2026-04-05,Priya,Hyderabad,Snacks & Beverages,13,2,70.0,Debit Card,Delivered,5.0,4,April,35.0,True
+210,2026-02-09,Divya,Pune,Fruits & Vegetables,3,1,35.0,Credit Card,Delivered,1.0,2,February,35.0,True
+211,2026-04-24,Manish,Bengaluru,Fruits & Vegetables,3,3,105.0,Cash on Delivery,Delivered,4.0,4,April,35.0,True
+212,2026-05-12,Meera,Pune,Snacks & Beverages,11,2,60.0,UPI,Delivered,1.0,5,May,30.0,True
+213,2026-05-05,Riya,Pune,Bakery,30,5,325.0,Wallet,Delivered,1.0,5,May,65.0,True
+214,2026-01-15,Kiara,Pune,Personal Care,16,5,552.5,UPI,Delivered,2.0,1,January,110.5,True
+215,2026-03-16,Sneha,Hyderabad,Dairy & Eggs,6,3,180.0,Debit Card,Delivered,4.0,3,March,60.0,True
+216,2026-02-03,Anjali,Bengaluru,Personal Care,18,2,80.0,Cash on Delivery,Delivered,2.0,2,February,40.0,True
+217,2026-01-19,Karan,Mumbai,Household Essentials,24,3,267.0,Cash on Delivery,Cancelled,,1,January,89.0,False
+218,2026-04-28,Aditya,Pune,Personal Care,18,1,40.0,UPI,Cancelled,,4,April,40.0,False
+219,2026-04-14,Neha,Mumbai,Personal Care,18,5,200.0,Cash on Delivery,Delivered,4.0,4,April,40.0,True
+220,2026-06-08,Vivaan,Hyderabad,Snacks & Beverages,12,2,90.0,Cash on Delivery,Delivered,3.0,6,June,45.0,True
+221,2026-03-04,Sai,Hyderabad,Personal Care,18,1,40.0,Cash on Delivery,Delivered,5.0,3,March,40.0,True
+222,2026-03-28,Sai,Hyderabad,Personal Care,16,3,552.5,Credit Card,Delivered,2.0,3,March,184.16666666666666,True
+223,2026-05-16,Arjun,Mumbai,Household Essentials,21,1,20.0,Wallet,Delivered,3.0,5,May,20.0,True
+224,2026-03-02,Dev,Pune,Bakery,28,2,240.0,UPI,Delivered,2.0,3,March,120.0,True
+225,2026-06-17,Diya,Bengaluru,Bakery,26,2,90.0,UPI,Delivered,4.0,6,June,45.0,True
+226,2026-04-25,Priya,Hyderabad,Household Essentials,24,5,445.0,Wallet,Delivered,5.0,4,April,89.0,True
+227,2026-02-08,Rohan,Mumbai,Bakery,27,3,210.0,Cash on Delivery,Delivered,4.0,2,February,70.0,True
+228,2026-06-01,Rohit,Mumbai,Snacks & Beverages,12,3,135.0,UPI,Delivered,1.0,6,June,45.0,True
+229,2026-01-10,Siya,Bengaluru,Personal Care,19,4,396.0,UPI,Delivered,3.0,1,January,99.0,True
+230,2026-06-07,Arjun,Mumbai,Bakery,28,1,120.0,Wallet,Delivered,4.0,6,June,120.0,True
+231,2026-04-26,Simran,Hyderabad,Household Essentials,23,1,145.0,Wallet,Delivered,3.0,4,April,145.0,True
+232,2026-02-08,Divya,Pune,Personal Care,20,5,,UPI,Delivered,3.0,2,February,,True
+233,2026-06-15,Kavya,Hyderabad,Fruits & Vegetables,3,5,175.0,Credit Card,Delivered,4.0,6,June,35.0,True
+234,2026-06-06,Nisha,Mumbai,Household Essentials,22,5,552.5,Credit Card,Delivered,3.0,6,June,110.5,True
+235,2026-06-23,Aryan,Mumbai,Personal Care,17,3,285.0,Wallet,Delivered,3.0,6,June,95.0,True
+236,2026-05-23,Arjun,Mumbai,Snacks & Beverages,12,1,45.0,Cash on Delivery,Delivered,5.0,5,May,45.0,True
+237,2026-05-30,Ishaan,Hyderabad,Snacks & Beverages,13,1,35.0,Credit Card,Cancelled,,5,May,35.0,False
+238,2026-02-03,Siya,Bengaluru,Bakery,29,4,340.0,Wallet,Delivered,1.0,2,February,85.0,True
+239,2026-06-14,Siya,Bengaluru,Household Essentials,24,4,356.0,Debit Card,Delivered,5.0,6,June,89.0,True
+240,2026-05-11,Sai,Hyderabad,Bakery,28,4,480.0,Debit Card,Delivered,3.0,5,May,120.0,True
+241,2026-05-05,Diya,Bengaluru,Dairy & Eggs,9,3,135.0,Credit Card,Delivered,2.0,5,May,45.0,True
+242,2026-01-26,Ishaan,Hyderabad,Fruits & Vegetables,3,3,105.0,Wallet,Delivered,5.0,1,January,35.0,True
+243,2026-06-08,Aditya,Pune,Bakery,29,3,255.0,Credit Card,Delivered,2.0,6,June,85.0,True
+244,2026-02-12,Ananya,Pune,Dairy & Eggs,7,5,450.0,Cash on Delivery,Delivered,3.0,2,February,90.0,True
+245,2026-06-06,Manish,Bengaluru,Dairy & Eggs,9,4,180.0,Debit Card,Delivered,4.0,6,June,45.0,True
+246,2026-03-21,Kiara,Pune,Household Essentials,22,2,260.0,Cash on Delivery,Cancelled,,3,March,130.0,False
+247,2026-04-23,Saanvi,Mumbai,Snacks & Beverages,15,5,300.0,Cash on Delivery,Delivered,4.0,4,April,60.0,True
+248,2026-02-11,Karan,Mumbai,Household Essentials,22,4,520.0,Credit Card,Delivered,2.0,2,February,130.0,True
+249,2026-04-06,Anika,Mumbai,Fruits & Vegetables,2,4,160.0,Wallet,Cancelled,,4,April,40.0,False
+250,2026-03-14,Kavya,Hyderabad,Household Essentials,22,1,552.5,UPI,Delivered,3.0,3,March,552.5,True
+251,2026-04-22,Nisha,Mumbai,Household Essentials,21,2,40.0,UPI,Cancelled,,4,April,20.0,False
+252,2026-01-07,Kiara,Pune,Personal Care,18,3,120.0,Cash on Delivery,Delivered,5.0,1,January,40.0,True
+253,2026-01-21,Yash,Bengaluru,Dairy & Eggs,9,4,180.0,Debit Card,Delivered,3.0,1,January,45.0,True
+254,2026-02-07,Reyansh,Pune,Bakery,28,3,360.0,Credit Card,Delivered,4.0,2,February,120.0,True
+255,2026-04-25,Deepak,Mumbai,Dairy & Eggs,6,4,240.0,Wallet,Delivered,1.0,4,April,60.0,True
+256,2026-02-08,Vivaan,Hyderabad,Dairy & Eggs,10,2,4400.0,Wallet,Cancelled,,2,February,2200.0,False
+257,2026-01-29,Divya,Pune,Household Essentials,22,4,520.0,Debit Card,Delivered,1.0,1,January,130.0,True
+258,2026-06-13,Vihaan,Bengaluru,Dairy & Eggs,9,4,180.0,Wallet,Delivered,1.0,6,June,45.0,True
+259,2026-01-05,Rahul,Bengaluru,Household Essentials,25,5,375.0,Wallet,Delivered,2.0,1,January,75.0,True
+260,2026-06-07,Riya,Pune,Personal Care,18,1,40.0,Debit Card,Delivered,4.0,6,June,40.0,True
+261,2026-05-15,Diya,Bengaluru,Bakery,29,1,85.0,Debit Card,Delivered,5.0,5,May,85.0,True
+262,2026-05-22,Nikhil,Pune,Household Essentials,21,5,100.0,UPI,Delivered,4.0,5,May,20.0,True
+263,2026-04-06,Aditya,Pune,Bakery,27,4,280.0,Debit Card,Delivered,3.0,4,April,70.0,True
+264,2026-06-18,Arjun,Mumbai,Snacks & Beverages,13,2,70.0,UPI,Delivered,3.0,6,June,35.0,True
+265,2026-05-20,Krishna,Mumbai,Fruits & Vegetables,2,3,120.0,Debit Card,Delivered,2.0,5,May,40.0,True
+266,2026-06-28,Sneha,Hyderabad,Bakery,30,4,260.0,Cash on Delivery,Delivered,2.0,6,June,65.0,True
+267,2026-03-17,Arjun,Mumbai,Personal Care,19,1,99.0,Credit Card,Delivered,2.0,3,March,99.0,True
+268,2026-05-12,Aditya,Pune,Snacks & Beverages,12,3,135.0,Cash on Delivery,Pending,,5,May,45.0,False
+269,2026-01-10,Nikhil,Pune,Personal Care,20,3,,Credit Card,Delivered,1.0,1,January,,True
+270,2026-02-01,Sanjay,Hyderabad,Snacks & Beverages,12,3,135.0,Debit Card,Delivered,4.0,2,February,45.0,True
+271,2026-03-28,Anjali,Bengaluru,Personal Care,18,4,160.0,Credit Card,Delivered,4.0,3,March,40.0,True
+272,2026-01-22,Yash,Bengaluru,Household Essentials,22,3,390.0,Cash on Delivery,Delivered,5.0,1,January,130.0,True
+273,2026-03-24,Diya,Bengaluru,Household Essentials,23,3,435.0,UPI,Delivered,3.0,3,March,145.0,True
+274,2026-04-20,Siya,Bengaluru,Personal Care,18,5,200.0,Credit Card,Delivered,3.0,4,April,40.0,True
+275,2026-06-07,Nisha,Mumbai,Fruits & Vegetables,2,3,120.0,Cash on Delivery,Delivered,1.0,6,June,40.0,True
+276,2026-04-04,Arjun,Mumbai,Bakery,29,4,340.0,Wallet,Delivered,2.0,4,April,85.0,True
+277,2026-06-23,Vivaan,Hyderabad,Dairy & Eggs,6,5,300.0,Cash on Delivery,Delivered,1.0,6,June,60.0,True
+278,2026-04-03,Myra,Bengaluru,Bakery,28,3,360.0,Cash on Delivery,Cancelled,,4,April,120.0,False
+279,2026-06-23,Aditya,Pune,Bakery,26,2,90.0,Cash on Delivery,Cancelled,,6,June,45.0,False
+280,2026-05-27,Yash,Bengaluru,Personal Care,18,1,40.0,Credit Card,Delivered,4.0,5,May,40.0,True
+281,2026-03-05,Rohan,Mumbai,Bakery,28,3,360.0,UPI,Delivered,2.0,3,March,120.0,True
+282,2026-05-24,Rahul,Bengaluru,Household Essentials,22,4,520.0,UPI,Delivered,3.0,5,May,130.0,True
+283,2026-06-06,Kavya,Hyderabad,Personal Care,18,2,80.0,Debit Card,Delivered,4.0,6,June,40.0,True
+284,2026-01-19,Saanvi,Mumbai,Fruits & Vegetables,5,2,50.0,Cash on Delivery,Delivered,4.0,1,January,25.0,True
+285,2026-06-20,Sai,Hyderabad,Bakery,30,3,195.0,Debit Card,Delivered,5.0,6,June,65.0,True
+286,2026-02-10,Nikhil,Pune,Snacks & Beverages,11,3,90.0,Credit Card,Delivered,5.0,2,February,30.0,True
+287,2026-02-05,Kiara,Pune,Fruits & Vegetables,5,2,50.0,Credit Card,Delivered,1.0,2,February,25.0,True
+288,2026-04-05,Yash,Bengaluru,Household Essentials,23,5,,Cash on Delivery,Delivered,5.0,4,April,,True
+289,2026-01-17,Krishna,Mumbai,Bakery,26,1,45.0,Debit Card,Delivered,4.0,1,January,45.0,True
+290,2026-05-28,Varun,Hyderabad,Personal Care,17,4,380.0,UPI,Delivered,3.0,5,May,95.0,True
+291,2026-04-30,Sanjay,Hyderabad,Fruits & Vegetables,3,4,140.0,Wallet,Delivered,5.0,4,April,35.0,True
+292,2026-02-03,Rohit,Mumbai,Household Essentials,25,2,150.0,Cash on Delivery,Delivered,1.0,2,February,75.0,True
+293,2026-03-19,Ayaan,Bengaluru,Household Essentials,22,2,260.0,Credit Card,Delivered,2.0,3,March,130.0,True
+294,2026-01-21,Dev,Pune,Household Essentials,22,3,390.0,Debit Card,Delivered,5.0,1,January,130.0,True
+295,2026-06-07,Navya,Hyderabad,Dairy & Eggs,6,3,180.0,Wallet,Delivered,2.0,6,June,60.0,True
+296,2026-02-13,Simran,Hyderabad,Household Essentials,25,2,150.0,Wallet,Delivered,5.0,2,February,75.0,True
+297,2026-01-08,Kabir,Hyderabad,Household Essentials,24,1,89.0,UPI,Delivered,5.0,1,January,89.0,True
+298,2026-05-27,Anika,Mumbai,Bakery,28,2,240.0,Cash on Delivery,Delivered,1.0,5,May,120.0,True
+299,2026-03-16,Rahul,Bengaluru,Bakery,27,5,350.0,Debit Card,Delivered,4.0,3,March,70.0,True
+300,2026-06-26,Siya,Bengaluru,Personal Care,18,1,40.0,UPI,Delivered,4.0,6,June,40.0,True
+301,2026-03-29,Aman,Pune,Personal Care,19,2,198.0,Wallet,Delivered,3.0,3,March,99.0,True
+302,2026-02-03,Shreya,Pune,Snacks & Beverages,13,4,140.0,Debit Card,Delivered,1.0,2,February,35.0,True
+303,2026-02-01,Rohan,Mumbai,Dairy & Eggs,9,4,180.0,Debit Card,Delivered,2.0,2,February,45.0,True
+304,2026-04-09,Reyansh,Pune,Fruits & Vegetables,2,3,120.0,Wallet,Delivered,2.0,4,April,40.0,True
+305,2026-02-18,Rohan,Mumbai,Household Essentials,25,3,,Credit Card,Delivered,5.0,2,February,,True
+306,2026-05-08,Priya,Hyderabad,Household Essentials,21,3,60.0,UPI,Delivered,4.0,5,May,20.0,True
+307,2026-02-25,Karan,Mumbai,Personal Care,19,2,198.0,Wallet,Delivered,1.0,2,February,99.0,True
+308,2026-06-17,Riya,Pune,Household Essentials,21,5,100.0,Cash on Delivery,Delivered,1.0,6,June,20.0,True
+309,2026-03-09,Reyansh,Pune,Personal Care,18,2,80.0,Debit Card,Delivered,3.0,3,March,40.0,True
+310,2026-05-26,Aditya,Pune,Personal Care,16,1,220.0,Wallet,Delivered,5.0,5,May,220.0,True
+311,2026-05-10,Riya,Pune,Fruits & Vegetables,3,4,140.0,Cash on Delivery,Delivered,3.0,5,May,35.0,True
+312,2026-01-31,Isha,Bengaluru,Bakery,30,5,325.0,Credit Card,Pending,,1,January,65.0,False
+313,2026-05-23,Zara,Hyderabad,Snacks & Beverages,15,3,180.0,Debit Card,Delivered,2.0,5,May,60.0,True
+314,2026-05-09,Divya,Pune,Household Essentials,21,4,80.0,UPI,Delivered,2.0,5,May,20.0,True
+315,2026-05-13,Kavya,Hyderabad,Snacks & Beverages,13,4,140.0,Cash on Delivery,Delivered,5.0,5,May,35.0,True
+316,2026-03-23,Krishna,Mumbai,Snacks & Beverages,12,5,225.0,Credit Card,Delivered,5.0,3,March,45.0,True
+317,2026-03-28,Anjali,Bengaluru,Snacks & Beverages,12,5,225.0,Wallet,Delivered,5.0,3,March,45.0,True
+318,2026-05-02,Rahul,Bengaluru,Household Essentials,24,3,267.0,UPI,Delivered,1.0,5,May,89.0,True
+319,2026-06-26,Meera,Pune,Household Essentials,25,3,225.0,UPI,Delivered,3.0,6,June,75.0,True
+320,2026-02-28,Sanjay,Hyderabad,Household Essentials,25,5,375.0,UPI,Delivered,2.0,2,February,75.0,True
+321,2026-04-08,Varun,Hyderabad,Bakery,27,5,350.0,Credit Card,Delivered,2.0,4,April,70.0,True
+322,2026-02-18,Aditya,Pune,Household Essentials,24,1,89.0,UPI,Delivered,4.0,2,February,89.0,True
+323,2026-04-16,Ishaan,Hyderabad,Personal Care,17,2,552.5,Wallet,Delivered,4.0,4,April,276.25,True
+324,2026-05-13,Anjali,Bengaluru,Fruits & Vegetables,2,2,80.0,Credit Card,Delivered,4.0,5,May,40.0,True
+325,2026-02-14,Varun,Hyderabad,Snacks & Beverages,15,3,180.0,Cash on Delivery,Cancelled,,2,February,60.0,False
+326,2026-06-23,Kabir,Hyderabad,Household Essentials,23,3,435.0,Debit Card,Delivered,2.0,6,June,145.0,True
+327,2026-03-18,Myra,Bengaluru,Snacks & Beverages,11,5,150.0,Credit Card,Cancelled,,3,March,30.0,False
+328,2026-06-26,Siya,Bengaluru,Snacks & Beverages,11,2,60.0,Cash on Delivery,Delivered,3.0,6,June,30.0,True
+329,2026-02-01,Pooja,Bengaluru,Snacks & Beverages,11,3,90.0,Wallet,Delivered,4.0,2,February,30.0,True
+330,2026-03-16,Zara,Hyderabad,Snacks & Beverages,13,2,70.0,UPI,Delivered,1.0,3,March,35.0,True
+331,2026-05-03,Dev,Pune,Personal Care,18,3,120.0,Credit Card,Delivered,5.0,5,May,40.0,True
+332,2026-02-05,Navya,Hyderabad,Household Essentials,24,3,267.0,UPI,Delivered,5.0,2,February,89.0,True
+333,2026-06-21,Myra,Bengaluru,Dairy & Eggs,10,1,,Wallet,Delivered,2.0,6,June,,True
+334,2026-03-26,Vihaan,Bengaluru,Fruits & Vegetables,4,4,552.5,Cash on Delivery,Delivered,2.0,3,March,138.125,True
+335,2026-04-15,Aarav,Mumbai,Household Essentials,23,2,290.0,Cash on Delivery,Delivered,2.0,4,April,145.0,True
+336,2026-03-15,Pallavi,Mumbai,Snacks & Beverages,11,3,90.0,UPI,Cancelled,,3,March,30.0,False
+337,2026-03-01,Sai,Hyderabad,Bakery,28,5,552.5,Wallet,Delivered,1.0,3,March,110.5,True
+338,2026-01-10,Diya,Bengaluru,Personal Care,17,2,190.0,Cash on Delivery,Delivered,2.0,1,January,95.0,True
+339,2026-01-03,Anjali,Bengaluru,Snacks & Beverages,11,1,30.0,Debit Card,Delivered,1.0,1,January,30.0,True
+340,2026-06-14,Kabir,Hyderabad,Snacks & Beverages,11,4,120.0,Wallet,Delivered,2.0,6,June,30.0,True
+341,2026-02-19,Karan,Mumbai,Personal Care,19,3,297.0,UPI,Delivered,4.0,2,February,99.0,True
+342,2026-01-04,Sanjay,Hyderabad,Dairy & Eggs,10,2,110.0,Debit Card,Delivered,5.0,1,January,55.0,True
+343,2026-06-06,Manish,Bengaluru,Dairy & Eggs,8,2,168.0,Cash on Delivery,Delivered,5.0,6,June,84.0,True
+344,2026-06-21,Rohan,Mumbai,Fruits & Vegetables,3,4,140.0,UPI,Delivered,2.0,6,June,35.0,True
+345,2026-01-02,Aman,Pune,Snacks & Beverages,12,2,90.0,Debit Card,Delivered,4.0,1,January,45.0,True
+346,2026-03-19,Pallavi,Mumbai,Snacks & Beverages,11,3,90.0,Wallet,Delivered,1.0,3,March,30.0,True
+347,2026-06-27,Anika,Mumbai,Bakery,29,3,255.0,Credit Card,Delivered,1.0,6,June,85.0,True
+348,2026-04-14,Priya,Hyderabad,Snacks & Beverages,12,2,90.0,Wallet,Cancelled,,4,April,45.0,False
+349,2026-06-13,Kavya,Hyderabad,Snacks & Beverages,12,1,45.0,Debit Card,Delivered,2.0,6,June,45.0,True
+350,2026-02-09,Kiara,Pune,Dairy & Eggs,6,4,240.0,Cash on Delivery,Delivered,5.0,2,February,60.0,True
+351,2026-05-01,Yash,Bengaluru,Personal Care,17,5,475.0,Wallet,Delivered,2.0,5,May,95.0,True
+352,2026-01-21,Pallavi,Mumbai,Dairy & Eggs,10,5,275.0,Wallet,Delivered,3.0,1,January,55.0,True
+353,2026-01-16,Arjun,Mumbai,Household Essentials,24,1,89.0,Wallet,Cancelled,,1,January,89.0,False
+354,2026-02-08,Saanvi,Mumbai,Household Essentials,24,5,445.0,Credit Card,Delivered,5.0,2,February,89.0,True
+355,2026-05-30,Nisha,Mumbai,Fruits & Vegetables,5,2,50.0,Cash on Delivery,Delivered,5.0,5,May,25.0,True
+356,2026-02-03,Nisha,Mumbai,Fruits & Vegetables,2,4,160.0,Wallet,Delivered,5.0,2,February,40.0,True
+357,2026-06-22,Vihaan,Bengaluru,Household Essentials,24,4,356.0,Debit Card,Delivered,4.0,6,June,89.0,True
+358,2026-05-29,Anika,Mumbai,Fruits & Vegetables,1,2,100.0,UPI,Delivered,3.0,5,May,50.0,True
+359,2026-01-16,Deepak,Mumbai,Fruits & Vegetables,2,5,200.0,UPI,Pending,,1,January,40.0,False
+360,2026-04-15,Aman,Pune,Fruits & Vegetables,1,3,150.0,Credit Card,Delivered,4.0,4,April,50.0,True
+361,2026-04-07,Yash,Bengaluru,Snacks & Beverages,15,4,240.0,Cash on Delivery,Delivered,5.0,4,April,60.0,True
+362,2026-01-31,Krishna,Mumbai,Bakery,29,3,255.0,Credit Card,Pending,,1,January,85.0,False
+363,2026-02-27,Zara,Hyderabad,Household Essentials,22,2,260.0,UPI,Delivered,3.0,2,February,130.0,True
+364,2026-04-19,Priya,Hyderabad,Bakery,30,5,325.0,Wallet,Delivered,2.0,4,April,65.0,True
+365,2026-02-09,Myra,Bengaluru,Personal Care,19,3,297.0,Debit Card,Delivered,1.0,2,February,99.0,True
+366,2026-06-07,Aditya,Pune,Bakery,29,4,,UPI,Delivered,1.0,6,June,,True
+367,2026-04-25,Reyansh,Pune,Household Essentials,25,1,75.0,Wallet,Delivered,1.0,4,April,75.0,True
+368,2026-04-23,Myra,Bengaluru,Fruits & Vegetables,2,4,160.0,Credit Card,Delivered,1.0,4,April,40.0,True
+369,2026-03-01,Krishna,Mumbai,Household Essentials,21,3,60.0,Wallet,Delivered,5.0,3,March,20.0,True
+370,2026-03-02,Sneha,Hyderabad,Bakery,30,3,195.0,Debit Card,Cancelled,,3,March,65.0,False
+371,2026-04-16,Vikram,Pune,Household Essentials,22,2,260.0,Debit Card,Delivered,5.0,4,April,130.0,True
+372,2026-05-23,Simran,Hyderabad,Dairy & Eggs,7,4,360.0,Cash on Delivery,Delivered,3.0,5,May,90.0,True
+373,2026-05-15,Sanjay,Hyderabad,Bakery,29,4,340.0,Debit Card,Delivered,4.0,5,May,85.0,True
+374,2026-02-17,Ishaan,Hyderabad,Snacks & Beverages,12,4,180.0,Wallet,Delivered,2.0,2,February,45.0,True
+375,2026-01-15,Siya,Bengaluru,Dairy & Eggs,6,4,240.0,Wallet,Delivered,4.0,1,January,60.0,True
+376,2026-04-10,Pooja,Bengaluru,Household Essentials,22,2,260.0,Credit Card,Delivered,3.0,4,April,130.0,True
+377,2026-04-05,Sanjay,Hyderabad,Fruits & Vegetables,3,4,140.0,UPI,Delivered,2.0,4,April,35.0,True
+378,2026-06-22,Vihaan,Bengaluru,Snacks & Beverages,11,4,120.0,Wallet,Delivered,1.0,6,June,30.0,True
+379,2026-02-25,Saanvi,Mumbai,Household Essentials,25,5,375.0,Cash on Delivery,Delivered,3.0,2,February,75.0,True
+380,2026-02-18,Siya,Bengaluru,Fruits & Vegetables,1,2,100.0,UPI,Delivered,4.0,2,February,50.0,True
+381,2026-04-12,Myra,Bengaluru,Bakery,26,2,90.0,Credit Card,Delivered,3.0,4,April,45.0,True
+382,2026-06-16,Aryan,Mumbai,Personal Care,19,5,495.0,Debit Card,Delivered,3.0,6,June,99.0,True
+383,2026-01-26,Karan,Mumbai,Household Essentials,21,4,80.0,Cash on Delivery,Delivered,3.0,1,January,20.0,True
+384,2026-04-16,Aadhya,Hyderabad,Snacks & Beverages,15,3,180.0,UPI,Delivered,2.0,4,April,60.0,True
+385,2026-03-08,Anjali,Bengaluru,Dairy & Eggs,6,1,60.0,Wallet,Cancelled,,3,March,60.0,False
+386,2026-02-09,Simran,Hyderabad,Personal Care,17,3,285.0,Credit Card,Delivered,4.0,2,February,95.0,True
+387,2026-05-21,Neha,Mumbai,Dairy & Eggs,10,4,220.0,Debit Card,Delivered,4.0,5,May,55.0,True
+388,2026-04-28,Shreya,Pune,Bakery,28,4,480.0,Credit Card,Delivered,3.0,4,April,120.0,True
+389,2026-05-06,Ananya,Pune,Dairy & Eggs,6,5,300.0,Credit Card,Cancelled,,5,May,60.0,False
+390,2026-05-15,Nikhil,Pune,Bakery,28,1,120.0,UPI,Delivered,1.0,5,May,120.0,True
+391,2026-04-16,Vikram,Pune,Fruits & Vegetables,2,1,40.0,Credit Card,Delivered,2.0,4,April,40.0,True
+392,2026-02-25,Arjun,Mumbai,Dairy & Eggs,6,1,60.0,Wallet,Delivered,1.0,2,February,60.0,True
+393,2026-05-04,Isha,Bengaluru,Bakery,27,5,350.0,Cash on Delivery,Delivered,5.0,5,May,70.0,True
+394,2026-01-05,Pooja,Bengaluru,Personal Care,17,1,95.0,Wallet,Delivered,5.0,1,January,95.0,True
+395,2026-06-28,Riya,Pune,Fruits & Vegetables,1,5,250.0,Cash on Delivery,Delivered,2.0,6,June,50.0,True
+396,2026-02-08,Reyansh,Pune,Fruits & Vegetables,4,5,552.5,Credit Card,Delivered,5.0,2,February,110.5,True
+397,2026-04-12,Anika,Mumbai,Snacks & Beverages,14,3,330.0,UPI,Delivered,4.0,4,April,110.0,True
+398,2026-06-28,Priya,Hyderabad,Household Essentials,24,2,178.0,Credit Card,Delivered,1.0,6,June,89.0,True
+399,2026-01-24,Sanjay,Hyderabad,Bakery,28,1,120.0,Cash on Delivery,Delivered,5.0,1,January,120.0,True
+400,2026-06-29,Aman,Pune,Fruits & Vegetables,2,1,40.0,Credit Card,Delivered,4.0,6,June,40.0,True
+401,2026-01-25,Sanjay,Hyderabad,Snacks & Beverages,12,5,225.0,Wallet,Cancelled,,1,January,45.0,False
+402,2026-05-02,Kiara,Pune,Dairy & Eggs,9,5,225.0,Debit Card,Delivered,1.0,5,May,45.0,True
+403,2026-05-25,Manish,Bengaluru,Snacks & Beverages,11,5,150.0,UPI,Delivered,3.0,5,May,30.0,True
+404,2026-02-06,Vivaan,Hyderabad,Dairy & Eggs,8,5,420.0,Cash on Delivery,Cancelled,,2,February,84.0,False
+405,2026-03-03,Siya,Bengaluru,Dairy & Eggs,7,5,450.0,Wallet,Delivered,4.0,3,March,90.0,True
+406,2026-04-09,Manish,Bengaluru,Household Essentials,23,3,435.0,Credit Card,Delivered,1.0,4,April,145.0,True
+407,2026-01-26,Karan,Mumbai,Snacks & Beverages,13,1,35.0,Cash on Delivery,Delivered,1.0,1,January,35.0,True
+408,2026-06-02,Kabir,Hyderabad,Bakery,26,5,225.0,Cash on Delivery,Pending,,6,June,45.0,False
+409,2026-04-26,Rohan,Mumbai,Fruits & Vegetables,1,3,150.0,Cash on Delivery,Delivered,5.0,4,April,50.0,True
+410,2026-06-24,Aryan,Mumbai,Personal Care,18,2,80.0,Wallet,Delivered,1.0,6,June,40.0,True
+411,2026-03-05,Sneha,Hyderabad,Bakery,26,3,135.0,UPI,Delivered,2.0,3,March,45.0,True
+412,2026-04-10,Aryan,Mumbai,Bakery,27,2,140.0,Debit Card,Delivered,1.0,4,April,70.0,True
+413,2026-04-03,Aarav,Mumbai,Snacks & Beverages,12,4,180.0,Debit Card,Delivered,1.0,4,April,45.0,True
+414,2026-05-23,Diya,Bengaluru,Personal Care,18,4,160.0,Wallet,Delivered,1.0,5,May,40.0,True
+415,2026-05-22,Vivaan,Hyderabad,Fruits & Vegetables,3,3,,UPI,Delivered,3.0,5,May,,True
+416,2026-04-16,Aryan,Mumbai,Fruits & Vegetables,1,3,150.0,Cash on Delivery,Delivered,5.0,4,April,50.0,True
+417,2026-02-13,Myra,Bengaluru,Household Essentials,24,5,445.0,Cash on Delivery,Delivered,3.0,2,February,89.0,True
+418,2026-02-07,Siya,Bengaluru,Snacks & Beverages,11,4,120.0,UPI,Delivered,3.0,2,February,30.0,True
+419,2026-01-20,Meera,Pune,Snacks & Beverages,12,4,180.0,Debit Card,Delivered,2.0,1,January,45.0,True
+420,2026-06-02,Shreya,Pune,Bakery,27,4,280.0,Wallet,Delivered,1.0,6,June,70.0,True
+421,2026-04-12,Krishna,Mumbai,Snacks & Beverages,12,1,45.0,Debit Card,Delivered,4.0,4,April,45.0,True
+422,2026-04-21,Kabir,Hyderabad,Personal Care,18,3,120.0,Wallet,Delivered,3.0,4,April,40.0,True
+423,2026-03-22,Divya,Pune,Dairy & Eggs,8,4,336.0,Credit Card,Pending,,3,March,84.0,False
+424,2026-05-28,Rohan,Mumbai,Snacks & Beverages,11,4,120.0,Credit Card,Delivered,3.0,5,May,30.0,True
+425,2026-05-25,Zara,Hyderabad,Snacks & Beverages,14,1,110.0,Credit Card,Delivered,5.0,5,May,110.0,True
+426,2026-01-07,Diya,Bengaluru,Bakery,30,5,325.0,Cash on Delivery,Cancelled,,1,January,65.0,False
+427,2026-06-27,Aadhya,Hyderabad,Personal Care,18,3,120.0,UPI,Delivered,4.0,6,June,40.0,True
+428,2026-06-12,Manish,Bengaluru,Household Essentials,21,2,40.0,Debit Card,Delivered,2.0,6,June,20.0,True
+429,2026-01-19,Kavya,Hyderabad,Personal Care,18,4,160.0,Cash on Delivery,Pending,,1,January,40.0,False
+430,2026-05-17,Aman,Pune,Household Essentials,25,4,300.0,Wallet,Cancelled,,5,May,75.0,False
+431,2026-01-10,Deepak,Mumbai,Personal Care,17,5,475.0,Debit Card,Delivered,5.0,1,January,95.0,True
+432,2026-01-28,Divya,Pune,Bakery,27,1,70.0,Credit Card,Delivered,3.0,1,January,70.0,True
+433,2026-01-12,Ananya,Pune,Bakery,28,5,600.0,Wallet,Pending,,1,January,120.0,False
+434,2026-03-26,Manish,Bengaluru,Bakery,28,4,480.0,Cash on Delivery,Delivered,1.0,3,March,120.0,True
+435,2026-05-13,Anika,Mumbai,Dairy & Eggs,9,5,225.0,Wallet,Delivered,5.0,5,May,45.0,True
+436,2026-04-11,Kiara,Pune,Personal Care,18,3,120.0,Cash on Delivery,Delivered,5.0,4,April,40.0,True
+437,2026-03-30,Deepak,Mumbai,Household Essentials,21,2,40.0,UPI,Delivered,3.0,3,March,20.0,True
+438,2026-02-06,Meera,Pune,Fruits & Vegetables,3,1,35.0,Debit Card,Delivered,4.0,2,February,35.0,True
+439,2026-03-31,Aadhya,Hyderabad,Household Essentials,22,4,520.0,Cash on Delivery,Delivered,4.0,3,March,130.0,True
+440,2026-01-12,Rohan,Mumbai,Fruits & Vegetables,2,3,120.0,UPI,Delivered,3.0,1,January,40.0,True
+441,2026-03-04,Sanjay,Hyderabad,Fruits & Vegetables,5,2,50.0,Wallet,Delivered,2.0,3,March,25.0,True
+442,2026-04-29,Kabir,Hyderabad,Household Essentials,24,4,356.0,Credit Card,Delivered,2.0,4,April,89.0,True
+443,2026-04-12,Diya,Bengaluru,Bakery,27,4,280.0,UPI,Delivered,2.0,4,April,70.0,True
+444,2026-04-10,Nisha,Mumbai,Household Essentials,25,4,300.0,UPI,Delivered,2.0,4,April,75.0,True
+445,2026-01-27,Navya,Hyderabad,Fruits & Vegetables,2,5,200.0,Wallet,Delivered,3.0,1,January,40.0,True
+446,2026-03-09,Saanvi,Mumbai,Personal Care,19,1,99.0,Cash on Delivery,Delivered,3.0,3,March,99.0,True
+447,2026-04-11,Divya,Pune,Snacks & Beverages,15,5,300.0,Wallet,Delivered,3.0,4,April,60.0,True
+448,2026-06-22,Priya,Hyderabad,Bakery,26,2,90.0,Debit Card,Cancelled,,6,June,45.0,False
+449,2026-03-22,Simran,Hyderabad,Fruits & Vegetables,3,2,70.0,UPI,Delivered,1.0,3,March,35.0,True
+450,2026-05-11,Diya,Bengaluru,Snacks & Beverages,15,2,120.0,Cash on Delivery,Delivered,2.0,5,May,60.0,True
+451,2026-02-17,Neha,Mumbai,Snacks & Beverages,15,4,240.0,Cash on Delivery,Delivered,2.0,2,February,60.0,True
+452,2026-03-15,Pooja,Bengaluru,Dairy & Eggs,7,4,360.0,Credit Card,Delivered,4.0,3,March,90.0,True
+453,2026-01-03,Isha,Bengaluru,Fruits & Vegetables,2,3,120.0,Cash on Delivery,Delivered,4.0,1,January,40.0,True
+454,2026-04-15,Pooja,Bengaluru,Household Essentials,21,4,80.0,Cash on Delivery,Delivered,4.0,4,April,20.0,True
+455,2026-05-25,Rahul,Bengaluru,Dairy & Eggs,7,1,90.0,UPI,Delivered,2.0,5,May,90.0,True
+456,2026-02-27,Riya,Pune,Fruits & Vegetables,1,3,150.0,Wallet,Delivered,4.0,2,February,50.0,True
+457,2026-05-11,Neha,Mumbai,Household Essentials,21,5,100.0,UPI,Delivered,3.0,5,May,20.0,True
+458,2026-05-19,Sneha,Hyderabad,Household Essentials,23,3,435.0,UPI,Delivered,4.0,5,May,145.0,True
+459,2026-01-27,Nikhil,Pune,Dairy & Eggs,9,4,180.0,Credit Card,Delivered,1.0,1,January,45.0,True
+460,2026-01-23,Nisha,Mumbai,Snacks & Beverages,11,3,90.0,Cash on Delivery,Cancelled,,1,January,30.0,False
+461,2026-05-31,Ayaan,Bengaluru,Dairy & Eggs,9,2,90.0,Debit Card,Cancelled,,5,May,45.0,False
+462,2026-02-12,Isha,Bengaluru,Bakery,27,4,280.0,Wallet,Delivered,2.0,2,February,70.0,True
+463,2026-03-31,Aadhya,Hyderabad,Fruits & Vegetables,2,5,200.0,Wallet,Delivered,5.0,3,March,40.0,True
+464,2026-03-16,Ananya,Pune,Snacks & Beverages,12,3,135.0,Wallet,Delivered,5.0,3,March,45.0,True
+465,2026-04-16,Manish,Bengaluru,Fruits & Vegetables,4,2,360.0,UPI,Pending,,4,April,180.0,False
+466,2026-03-05,Sanjay,Hyderabad,Dairy & Eggs,6,2,120.0,Credit Card,Delivered,2.0,3,March,60.0,True
+467,2026-05-06,Pallavi,Mumbai,Bakery,30,4,260.0,Credit Card,Delivered,3.0,5,May,65.0,True
+468,2026-04-26,Rohit,Mumbai,Personal Care,17,4,380.0,UPI,Delivered,1.0,4,April,95.0,True
+469,2026-06-27,Zara,Hyderabad,Household Essentials,21,3,60.0,Debit Card,Delivered,4.0,6,June,20.0,True
+470,2026-01-24,Rohan,Mumbai,Household Essentials,25,1,75.0,Cash on Delivery,Delivered,3.0,1,January,75.0,True
+471,2026-02-25,Arjun,Mumbai,Household Essentials,22,4,520.0,Cash on Delivery,Delivered,4.0,2,February,130.0,True
+472,2026-03-28,Navya,Hyderabad,Snacks & Beverages,12,3,135.0,Wallet,Delivered,5.0,3,March,45.0,True
+473,2026-01-12,Rahul,Bengaluru,Snacks & Beverages,13,1,35.0,UPI,Delivered,4.0,1,January,35.0,True
+474,2026-04-23,Vivaan,Hyderabad,Fruits & Vegetables,5,2,50.0,Cash on Delivery,Delivered,4.0,4,April,25.0,True
+475,2026-02-10,Saanvi,Mumbai,Dairy & Eggs,6,3,180.0,Debit Card,Delivered,3.0,2,February,60.0,True
+476,2026-06-20,Anika,Mumbai,Fruits & Vegetables,3,3,105.0,Credit Card,Delivered,3.0,6,June,35.0,True
+477,2026-06-17,Shreya,Pune,Dairy & Eggs,9,4,180.0,UPI,Delivered,1.0,6,June,45.0,True
+478,2026-02-03,Aadhya,Hyderabad,Personal Care,20,1,150.0,Wallet,Delivered,4.0,2,February,150.0,True
+479,2026-01-31,Aarav,Mumbai,Fruits & Vegetables,1,3,150.0,Cash on Delivery,Delivered,4.0,1,January,50.0,True
+480,2026-01-23,Arjun,Mumbai,Dairy & Eggs,9,4,180.0,UPI,Delivered,3.0,1,January,45.0,True
+481,2026-02-04,Siya,Bengaluru,Dairy & Eggs,6,4,240.0,Credit Card,Delivered,5.0,2,February,60.0,True
+482,2026-04-23,Aarav,Mumbai,Bakery,26,2,90.0,Debit Card,Delivered,2.0,4,April,45.0,True
+483,2026-02-25,Meera,Pune,Bakery,26,4,180.0,UPI,Cancelled,,2,February,45.0,False
+484,2026-04-09,Krishna,Mumbai,Fruits & Vegetables,5,5,125.0,Debit Card,Pending,,4,April,25.0,False
+485,2026-03-12,Rohan,Mumbai,Dairy & Eggs,6,2,120.0,UPI,Delivered,5.0,3,March,60.0,True
+486,2026-06-26,Divya,Pune,Bakery,26,3,135.0,UPI,Delivered,3.0,6,June,45.0,True
+487,2026-05-11,Aadhya,Hyderabad,Household Essentials,22,5,552.5,Credit Card,Delivered,3.0,5,May,110.5,True
+488,2026-05-07,Sanjay,Hyderabad,Fruits & Vegetables,2,2,80.0,Cash on Delivery,Delivered,4.0,5,May,40.0,True
+489,2026-05-16,Rohit,Mumbai,Household Essentials,25,1,75.0,UPI,Pending,,5,May,75.0,False
+490,2026-05-26,Rohan,Mumbai,Dairy & Eggs,6,4,240.0,Cash on Delivery,Delivered,2.0,5,May,60.0,True
+491,2026-01-05,Pallavi,Mumbai,Personal Care,19,1,99.0,Wallet,Delivered,3.0,1,January,99.0,True
+492,2026-04-12,Aadhya,Hyderabad,Fruits & Vegetables,2,1,40.0,Wallet,Delivered,5.0,4,April,40.0,True
+493,2026-06-29,Sneha,Hyderabad,Personal Care,17,4,380.0,Cash on Delivery,Delivered,5.0,6,June,95.0,True
+494,2026-03-13,Nikhil,Pune,Bakery,26,2,90.0,UPI,Delivered,5.0,3,March,45.0,True
+495,2026-03-25,Aadhya,Hyderabad,Dairy & Eggs,6,5,300.0,Cash on Delivery,Delivered,1.0,3,March,60.0,True
+496,2026-01-15,Siya,Bengaluru,Personal Care,18,2,80.0,Credit Card,Delivered,4.0,1,January,40.0,True
+497,2026-06-05,Ayaan,Bengaluru,Personal Care,18,5,200.0,UPI,Delivered,2.0,6,June,40.0,True
+498,2026-06-29,Ayaan,Bengaluru,Fruits & Vegetables,1,2,100.0,UPI,Delivered,3.0,6,June,50.0,True
+499,2026-02-12,Varun,Hyderabad,Household Essentials,22,3,390.0,Debit Card,Delivered,3.0,2,February,130.0,True
+500,2026-03-27,Shreya,Pune,Fruits & Vegetables,5,1,25.0,Cash on Delivery,Delivered,1.0,3,March,25.0,True
