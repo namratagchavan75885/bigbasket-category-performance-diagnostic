@@ -63,7 +63,7 @@ Create one public Tableau Public dashboard from `monthly_category_revenue.csv` c
 - four KPI cards
 - one dashboard-wide interactive filter
 
-**Live Tableau Public dashboard:** `PASTE_YOUR_PUBLIC_TABLEAU_URL_HERE`
+**Live Tableau Public dashboard:** https://prod-in-a.online.tableau.com/#/site/namratagchavan75885-3b12d132d6/workbooks/1573712?:origin=card_share_link
 
 The live URL must be replaced with the actual public Tableau Public URL after publishing.
 
